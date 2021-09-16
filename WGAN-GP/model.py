@@ -31,7 +31,7 @@ class Generator(nn.Module):
         return self.net(x)
 
 
-# Discriminator Model Class
+# Critic Model Class
 class Critic(nn.Module):
     def __init__(self, img_channels, features):
         super(Critic, self).__init__()
