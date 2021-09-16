@@ -5,7 +5,7 @@
 [WGAN PyTorch Tutorial](https://youtu.be/pG0QZ7OddX4)
 
 ## Data Sample
-<img src="https://github.com/ANI717/WGAN-GP_Anime_Face_Generator/blob/main/result/real.png" alt="real_image" class="inline"/><br/>
+<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/result/real.png" alt="real_image" class="inline"/><br/>
 
 ## Generated Anime Faces with DCGAN
 `Epochs = 10`<br/>
