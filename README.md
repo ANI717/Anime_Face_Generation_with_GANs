@@ -13,6 +13,8 @@
 <img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/result/fake_100_64.png" alt="fake_image_1" class="inline"/><br/>
 <br/>
 When Feature Size is Doubled for both Generator and Descriminator.<br/>
+`Epochs = 10`<br/>
+`Batch Size = 128`<br/>
 <img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/result/fake_200_128.png" alt="fake_image_1" class="inline"/><br/>
 
 ## Generated Anime Faces with WGAN
