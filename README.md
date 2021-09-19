@@ -5,20 +5,13 @@
 [WGAN PyTorch Tutorial](https://youtu.be/pG0QZ7OddX4)
 
 ## Data Sample
-<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/result/real.png" alt="real_image" class="inline"/><br/>
+<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/results/real.png" alt="real_image" class="inline"/><br/>
 
 ## Generated Anime Faces with DCGAN
-`Epochs = 10`<br/>
-`Batch Size = 128`<br/>
-<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/result/fake_100_64.png" alt="fake_image_1" class="inline"/><br/>
-<br/>
-When Feature Size is Doubled for both Generator and Discriminator.<br/>
-`Epochs = 10`<br/>
-`Batch Size = 128`<br/>
-<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/result/fake_200_128.png" alt="fake_image_1" class="inline"/><br/>
+`Epochs = 50`<br/>
+<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/results/fake_epoch9_step49.png" alt="fake_image_1" class="inline"/><br/>
 
 ## Generated Anime Faces with WGAN
 Gradiend Penalty is Applied while Training.<br/>
-`Epochs = 10`<br/>
-`Batch Size = 128`<br/>
-<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/result/fake.png" alt="fake_image_1" class="inline"/><br/>
+`Epochs = 50`<br/>
+<img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/results/fake_epoch9_step49.png" alt="fake_image_1" class="inline"/><br/>
