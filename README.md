@@ -9,9 +9,11 @@
 
 ## Generated Anime Faces with DCGAN
 `Epochs = 50`<br/>
+<br/>
 <img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/DCGAN/results/fake_epoch9_step49.png" alt="fake_image_1" class="inline"/><br/>
 
 ## Generated Anime Faces with WGAN
 Gradiend Penalty is Applied while Training.<br/>
 `Epochs = 50`<br/>
+<br/>
 <img src="https://github.com/ANI717/Anime_Face_Generation_GANs/blob/main/WGAN-GP/results/fake_epoch9_step49.png" alt="fake_image_1" class="inline"/><br/>
