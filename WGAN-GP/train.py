@@ -14,13 +14,13 @@ from tqdm import tqdm
 from pathlib import Path
 
 import config
-from datagen import Datagen
+from dataset import ANI717Dataset
 from models import Generator, Critic, initialize_weights
 from utils import load_checkpoint, save_checkpoint, save_sample_image, gradient_penalty
 
 
 # Load Data
-dataset = Datagen('../Dataset/data.csv', '../Dataset/images', transform=config.TRANSFORMS)
+dataset = ANI717Dataset('../Dataset/data.csv', '../Dataset/images', transform=config.TRANSFORMS)
 loader = DataLoader(dataset, batch_size=config.BATCH_SIZE, shuffle=True)
 fixed_noise = torch.randn(32, config.Z_DIM, 1, 1).to(config.DEVICE)
 
@@ -44,10 +44,10 @@ if config.LOAD_MODEL:
     load_checkpoint(config.CHECKPOINT_CRITIC, model_critic, optimizer_critic, config.LEARNING_RATE)
 
 
-# # Test Block
-# print(next(iter(dataset)).shape)
-# import sys
-# sys.exit()
+# Test Block
+print(next(iter(dataset)).shape)
+import sys
+sys.exit()
 
 
 # # Writer for Tensorboard
