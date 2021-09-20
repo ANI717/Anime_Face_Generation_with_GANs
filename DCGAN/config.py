@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 
 
 # Hyperparameters
-DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 IMG_SIZE = (64,64)
 IMG_CHANNELS = 3
